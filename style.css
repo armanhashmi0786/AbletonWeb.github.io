@@ -1,0 +1,581 @@
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@200;300;400;500;");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element1 {
+    display: flex;
+    align-items: center;
+}
+
+.element1 ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+.element1 ul li {
+    margin-left: 20px;
+}
+
+
+.element2 a {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#live {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main-tab{
+    margin-top: 20px;
+    margin-left:25px;
+    grid-area: 5px;
+}
+
+
+
+
+
+
+
+
+
+.background1{
+    height: 90vh;
+    width: 80vw;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?fit=crop&amp;auto=format&amp;fm=jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.ableton{
+font-size: 6rem;
+color: orangered;
+
+}
+
+
+
+
+
+
+#size{
+    padding: 20px;
+    width: 50%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+}
+    
+.color{
+    color: blue;
+}
+
+#size1{
+    padding: 20px;
+    width: 50%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-style: italic;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.frame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.background-color{
+    background-color:#fbffa7;
+    width: 65vw;
+    height: 60vw;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.imge1{
+    
+    width: 40vw;
+    height: 40vw;
+    background-image: url("https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+}
+
+.imge2
+{
+    
+    width: 33vw;
+    height: 25vw;
+    background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+    margin-top: 5%;
+}
+
+
+
+
+
+.video {
+    margin-top: 30px;
+}
+.youtube-video{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.backgroundcolor{
+    background-color: #b6ffc0;
+    width: 65vw;
+    height: 75vw;
+    position: absolute;
+    z-index: 0;
+    left: 0%;
+}
+
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.img1{
+    width: 33.33333vw;
+    z-index: 1;
+    height: 25vw;
+}
+
+.img2 {
+    width: 33.33333vw;
+    z-index: 1;
+    margin-top: 20%;
+}
+
+.img3 {
+    width: 41.66667vw;
+    height: 41.66667vw;
+    z-index: 1;
+    
+}
+.mainimg {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+.imglapes{
+    max-width: 100%;
+}
+
+
+.img-contain {
+    margin-left: 8.33333vw;
+    margin-right: 8.33333vw;
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.img78 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.frame2 {
+    background-color: #d5b3ff;
+    width: 66.66667vw;
+    height: 58.33333vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.img7 {
+    background-image: url("https://ableton-production.imgix.net/about/photo-6-a.jpg?fit=crop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 33.33333vw;
+    height: 25vw;
+    margin-left: 8.33333vw;
+    z-index: 1;
+}
+
+.img8 {
+    background-image: url("https://ableton-production.imgix.net/about/photo-7.jpg?fit=crop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 41.66667vw;
+    height: 41.66667vw;
+    margin-left: 16.66667vw;
+    z-index: 1;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    height: auto;
+    background-color: #b1c5ff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newimg {
+    width: 38vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.text-conatiner {
+   padding: 10%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer__button {
+    display: inline;
+    border: none;
+    background-color: blue;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    width: 80px;
+}
+
+#email {
+    border-radius: 0;
+    block-size: 45px;
+    width: 70%;
+    background-color: #eee;
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 27% 27% 36%;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 20px;
+    row-gap: 40px;
+    width: 90%;
+}
+
+
+
+
+
+.grid-item {
+    font-size: 17px;
+}
+
+.main-tab {
+    word-spacing: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.ableton {
+    font-size: 120px;
+    
+    font-weight: bold;
+}
+
+#country {
+    background-color: #eee;
+    border: 0;
+    width: 200px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#language {
+    background-color: #eee;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color:black;
+}
+
+#about-video {
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo p {
+    margin-right: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.footer a {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+@media all and (max-width:600px){
+    .element1>ul{
+        display: none;
+    }
+
+    .img-text{
+        width: 100%;
+        height: auto;
+    }
+    .newimg{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .grid-container{
+        grid-template-columns: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    #size{
+        width: 90%;
+        font-size: 20px;
+    }
+    #size1{
+        width: 90%;
+        font-size: 20px;
+    }
+    .ableton{
+        font-size: 70px;
+    }
+    .video{
+    width: 80vw;
+    height: 200px;
+
+}
+.background1{
+    width: 100%;
+}
+
+.frame{
+    width: 100%;
+}
+
+
+
+.img-text {
+    font-size: 1rem;
+    width: 50vw;
+    
+}
+.newimg {
+    width: 100%;
+    height: auto;
+}
+.container {
+    flex-direction: column;
+        }
+    
+}
+
+
+  
+
+
+@media all and (max-width:1300px){
+    .video{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
